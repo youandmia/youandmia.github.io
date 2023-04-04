@@ -1,0 +1,20 @@
+<nav id="navbar-primary" class="navbar navbar-default navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-primary-collapse"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+            <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                {% for item in site.data.navigation %}
+                <li {% if page.url==item.link %} class="active" {% else %} class="" {% endif %}>
+                    <a href="{{ item.link }}" {% if item.disabled==true %}class="nav-link disabled" {% else
+                        %}class="nav-link" {% endif %}>
+                        {{ item.name }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

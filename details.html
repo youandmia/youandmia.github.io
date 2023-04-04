@@ -1,0 +1,71 @@
+---
+layout: map
+---
+<div class="container-fluid">
+    <div class="row">
+        <!-- friday-->
+        <div class="col-xs-12 col-sm-4 text-center">
+            <h4 class="group-header">friday</h4>
+            <div style="height: 20vh"></div>
+            <h4 class="group-header">...</h4>
+        </div>
+        <!-- saturday-->
+        <div class="col-xs-12 col-sm-4 text-center">
+            <h4 class="group-header ">saturday</h4>
+            <p class="nova">wedding day!</p>
+            <div class="row">
+                <h4 class="sub-header">ceremony</h4>
+                <p class="nova">Mary, Star of the Sea<br>
+                    7654 Herschel Avenue<br>
+                    La Jolla, CA 92037<br>
+                    2:00</p>
+            </div>
+
+            <div class="row text-center">
+                <h4 class="sub-header">cocktail hour & reception</h4>
+                <p class="nova">
+                    Museum of Contemporary Art, La Jolla<br>
+                    700 Prospect St<br>
+                    La Jolla, CA 92037<br>
+                    3:30
+                </p>
+            </div>
+
+            <div class="row text-center">
+                <h4 class="sub-header">afterparty</h4>
+                <p class="nova">prepare for good things....</p>
+            </div>
+
+        </div>
+        <!-- sunday-->
+        <div class="col-xs-12 col-sm-4 text-center">
+            <h4 class="group-header">sunday</h4>
+            <div style="height: 20vh"></div>
+            <h4 class="group-header">...</h4>
+        </div>
+
+    </div> <!-- end row-->
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-auto"></div>
+        <div class="col-map">
+            <div id="map"></div>
+        </div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col"></div>
+    </div>
+</div>
+
+
+<script>
+    var map = L.map('map').setView([32.84404, -117.27534], 15);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    var reception = L.marker([32.8445548, -117.2779950]).bindPopup("Museum of Contemporary Art").addTo(map);
+    var church = L.marker([32.8439363, -117.2730929]).bindPopup("Mary, Star of the Sea").addTo(map);
+</script>

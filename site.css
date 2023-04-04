@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'butler';
+    src: url('resource/ButlerStencil-ExtraBold.woff2') format('woff2'),
+        url('resource/ButlerStencil-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nova';
+    src: url('resource/Metropolis-ExtraLight.woff2') format('woff2'),
+        url('resource/Metropolis-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    /* font-style: normal; */
+}
+
+body {
+    margin: 0;
+}
+
+.col-map {
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .col-map {
+        width: 600px;
+    }
+}
+
+h1.header {
+    font-family: 'WebFont', butler, serif;
+    font-size: 80px;
+    /* margin-bottom: 0px; */
+    margin-left: 5vw;
+    /* margin-top: 20px; */
+}
+
+h4.header {
+    font-family: 'WebFont', nova, sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    letter-spacing: .2em;
+    margin-left: 5vw;
+    text-transform: uppercase
+}
+
+h4.group-header {
+    font-family: 'WebFont', butler, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-transform: lowercase;
+    margin-left: 0vw;
+}
+
+h4.sub-header {
+    font-family: 'WebFont', butler, sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-transform: lowercase;
+    margin-left: 0vw;
+}
+
+header[role="banner"] {
+    display: block;
+    margin: 20px auto;
+}
+
+.image-container {
+    /* height: 100vh; */
+    height: calc(95vh - 175px);
+    max-width: 90vw;
+    display: block;
+    margin-left: 5vw;
+    background-image: url('resource/mcasd.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#map {
+    height: 50vh;
+    width: 100%
+}
+
+#navbar-primary.navbar-default {
+    /* background: transparent; */
+    --bs-bg-opacity: 0;
+    border: none;
+}
+
+#navbar-primary.navbar-default .navbar-nav {
+    width: 100%;
+    text-align: center;
+    /* font-family: "WebFont", nova, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em; */
+
+}
+
+#navbar-primary.navbar-default .navbar-nav>li {
+    display: inline-block;
+    float: none;
+    font-family: "WebFont", nova, sans-serif;
+}
+
+#navbar-primary.navbar-default .navbar-nav>li>a {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+#navbar-primary.navbar-default .navbar-nav>.active>a {
+    /* background-color: #b0cdd1;  */
+    background-color: #000000;
+    color: white;
+    font-weight: bold
+}
+
+p.nova {
+    font-family: 'WebFont', nova, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}

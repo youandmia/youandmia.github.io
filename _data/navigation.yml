@@ -1,0 +1,19 @@
+- name: details
+  link: /details.html
+
+- name: accomodations
+  link: /accomodations.html
+  disabled: true
+  
+
+- name: gallery
+  link: /gallery.html
+  disabled: true
+
+- name: registry
+  link: /registry.html
+  disabled: true
+
+- name: our favorites
+  link: /favorites.html
+  disabled: true
