@@ -4,4 +4,4 @@
 
 layout: default 
 ---
-<div class="image-container"/>
+<div class="image-container">
