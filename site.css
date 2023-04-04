@@ -84,7 +84,7 @@ header[role="banner"] {
 
 .image-container {
     /* height: 100vh; */
-    height: calc(95vh - 175px);
+    height: calc(90vh - 175px);
     max-width: 90vw;
     display: block;
     margin-left: 5vw;
@@ -146,6 +146,12 @@ header[role="banner"] {
     padding-left: 2px;
 }
 
+div.email {
+    font-family: 'WebFont', nova, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
 p.nova {
     font-family: 'WebFont', nova, sans-serif;
     font-weight: normal;
@@ -173,25 +179,35 @@ p.nova {
         /* font-size: calc(16px + 6 * ((100vw - 320px) / 680)); */
         font-size: 3vw
     }
+
+    div.email {
+        font-size: 3vw
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .col-map {
         width: 60vw;
     }
-        h4.group-header {
+
+    h4.group-header {
         font-size: 2vw
     }
 
     h4.sub-header {
         font-size: 1.8vw
     }
+
     p.nova {
         font-size: 22px;
     }
+
+    div.email {
+        font-size: 22px;
+    }
+
     div.detail-fill {
         height: 5vh
     }
+
 }
-
-
