@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /gallery
+---
+
+{% assign content_blocks_length = site.data.album | size %}
+<div class="container d-flex align-items-center justify-content-center">
+<div class="flex-container" style="text-align: center; max-width:70vw;">
+
+<div class="row">
+        {% for elem in site.data.album %}
+        <div class="col-sm-4col-xl-4 col-md-6 col-xxl-3">
+            <a href="/photos/{{ elem.name }}" data-toggle="lightbox" data-gallery="example-gallery" class="d-block"
+                data-caption="{{ elem.caption }}">
+                <img src="/thumbnails/{{ elem.name }}" class="img-fluid img-thumbnail">
+            </a></div>
+        {% endfor %}
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+<!-- 
+{% for item in site.data.album %}
+    <a href="/photos/{{ item.name }}" alt-text="{{ item.caption }}">{{ item.caption }}</a>
+    
+{% endfor %} -->

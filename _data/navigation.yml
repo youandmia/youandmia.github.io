@@ -7,8 +7,8 @@
   
 
 - name: gallery
-  link: /gallery.html
-  disabled: true
+  link: /gallery
+  disabled: false 
 
 - name: registry
   link: /registry.html
