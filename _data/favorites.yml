@@ -1,46 +1,91 @@
  - header: eat
    links: 
      - name: Taco Tracker
-       descr: A Hero documented more than 280 taquerias in Southern California
+       descr: a Hero documented more than 280 taquerias in Southern California
        link: https://docs.google.com/spreadsheets/d/1i2TuW-h-KrSg-vnYGlsnYVJqqfq7sy6Lwfs7Z2jiRfk/edit#gid=0
 
      - name: In N Out 
-       descr: get the burger animal style and a Neapolitan milkshake. These are not on the menu, but you will thank me later. They also do grilled cheese sandwiches.
+       descr: get the off-menu burger animal style and a Neapolitan milkshake. they also do grilled cheese sandwiches
+       link: https://www.in-n-out.com/
 
      - name: Hodad’s 
        descr: this is a Pacific Beach institution; go to the PB one and not the downtown one. Get there at 10:45am to have a chance at getting an 11am table. You could also order for takeout
+       link: https://hodadies.com/
 
      - name: Cucina Urbana 
-       descr: in Banker’s Hill (like NE of Little Italy).
+       descr: in Banker’s Hill (like NE of Little Italy)
+       link: https://www.urbankitchengroup.com/cucina-urbana-bankers-hill/
 
      - name: Mister A’s 
-       descr: steakhouse next to cucina urbana
+       descr: classy steakhouse with a penthouse lounge, note the dress code
+       link: https://www.asrestaurant.com/
 
      - name: Polite Provisions 
-       descr: super cute cocktail bar (my high school is down the street, Our Lady of Peace on Oregon Street – it’s a super pretty area, though I may be biased)
+       descr: super cute cocktail bar (down the street from Lucille's high school, Our Lady of Peace on Oregon Street)
+       link: https://politeprovisions.com/
 
      - name: El Zarape 
        descr: an institution, great tacos
+       link: http://www.elzarapesandiego.com/
 
      - name: Senor Mangos 
-       descr: another institution, great breakfast/fruit/acai bowls – I’ve been going there for 20+ years
+       descr: another institution, great breakfast/fruit/acai bowls – Lucille is a 20+ year patron
+       link: https://senormangos.com/
 
      - name: The Broken Yolk 
-       descr: Great breakfast all day (well, till they close at like 3). Locations all over, all fab.
+       descr: local chain with great breakfast into the afternoon
+       link: https://www.thebrokenyolkcafe.com/
 
- - header: stay
-   links:
-     - name: Pacific Beach (and Mission Bay/Beach) 
-       descr: this is where everyone 20/30-something who comes to San Diego seems to end up staying. Very beach vibe, good priced airbnbs and pretty walkable
+     - name: Eat through Little Italy 
+       descr: lots of excellent restaurants run and staffed by Italian-born immigrants 
+       link: https://www.littleitalysd.com
 
-     - name: North Park 
-       descr: Love North Park and surrounding areas for the community feel and walkability to cafes
+ - header: visit
+   links: 
 
-     - name: Little Italy 
-       descr: It’s a great place to stay and the nightlife is fantastic
+     - name: Brewery Tours 
+       descr: visit dozens of breweries including ballast point and green flash
+       link: https://www.sandiego.org/articles/breweries/san-diego-breweries.aspx
 
-     - name: Del Mar 
-       descr: it’s walkable, it has my favorite beaches, and the food is great – like La Jolla, more hotels than airbnb
+     - name: San Diego Zoo 
+       descr: amilos made famous by Johnny Carson and Shari Lewis
+       link: https://sandiegozoowildlifealliance.org
 
-     - name: Coronado 
-       descr: it’s an island, it’s pretty, it’s got a New England ish feel to it, but be careful! If you jaywalk you will get a ticket
+     - name: Torrey Pines State Preserve
+       descr: one of the wildest stretches of land on the Southern California coast 
+       link: https://torreypine.org 
+
+     - name: Del Mar Beach
+       descr: a Schindler favorite
+       link: https://www.delmar.ca.us/203/Beaches-Parks
+
+     - name: Mission Basilica San Diego de Alcala
+       descr: the second Franciscan-founded mission in The Californias, founded on July 16, 1769
+       link: https://www.missionsandiego.org/
+
+     - name: USS Midway Museum
+       descr: commissioned 8 days after the end of World War II, Midway was the largest ship in the world until 1955
+       link: https://www.midway.org
+
+     - name: Seaport Village 
+       descr: more than 70 shops, galleries, and eateries on 90,000 square feet of waterfront property
+       link: https://seaportvillage.com/
+
+     - name: The Gaslamp Quarter
+       descr: a lively downtown neighborhood, known for its nightlife
+       link: https://www.gaslamp.org/
+
+ - header: day trips 
+   links: 
+
+     - name: Julian/Santa Ysabel 
+       descr: mountain towns outside San Diego. visit Dudley's Bakery, Mom's Pies and Lake Cuyamaca as well as local breweries and wineries
+       link: https://www.tripadvisor.com/Tourism-g32545-Julian_California-Vacations.html
+
+     - name: Temecula 
+       descr: wine tasting region 90 minutes out of downtown San Diego 
+       link: https://temeculaca.gov/
+
+     - name: Anza Borrego Desert 
+       descr: beautiful drive with lovely desert views 
+       link: https://www.parks.ca.gov/?page_id=638
