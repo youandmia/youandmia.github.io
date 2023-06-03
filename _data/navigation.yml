@@ -4,7 +4,6 @@
 - name: accomodations
   link: /accomodations.html
   disabled: true
-  
 
 - name: gallery
   link: /gallery
@@ -15,5 +14,5 @@
   disabled: true
 
 - name: our favorites
-  link: /favorites.html
-  disabled: true
+  link: /favorites
+  disabled: false 

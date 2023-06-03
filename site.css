@@ -14,6 +14,23 @@
     /* font-style: normal; */
 }
 
+a.fav-link {
+    font-weight: bold;
+    font-size: 1.0rem;
+    display: inline-block;
+    float: none;
+    font-family: "WebFont", nova, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+p.fav-link {
+
+    font-family: "WebFont", nova, sans-serif;
+    color: black;
+}
+
 a.nav-link {
     font-size: 1.5rem;
 }

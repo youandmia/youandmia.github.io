@@ -1,0 +1,46 @@
+ - header: eat
+   links: 
+     - name: Taco Tracker
+       descr: A Hero documented more than 280 taquerias in Southern California
+       link: https://docs.google.com/spreadsheets/d/1i2TuW-h-KrSg-vnYGlsnYVJqqfq7sy6Lwfs7Z2jiRfk/edit#gid=0
+
+     - name: In N Out 
+       descr: get the burger animal style and a Neapolitan milkshake. These are not on the menu, but you will thank me later. They also do grilled cheese sandwiches.
+
+     - name: Hodad’s 
+       descr: this is a Pacific Beach institution; go to the PB one and not the downtown one. Get there at 10:45am to have a chance at getting an 11am table. You could also order for takeout
+
+     - name: Cucina Urbana 
+       descr: in Banker’s Hill (like NE of Little Italy).
+
+     - name: Mister A’s 
+       descr: steakhouse next to cucina urbana
+
+     - name: Polite Provisions 
+       descr: super cute cocktail bar (my high school is down the street, Our Lady of Peace on Oregon Street – it’s a super pretty area, though I may be biased)
+
+     - name: El Zarape 
+       descr: an institution, great tacos
+
+     - name: Senor Mangos 
+       descr: another institution, great breakfast/fruit/acai bowls – I’ve been going there for 20+ years
+
+     - name: The Broken Yolk 
+       descr: Great breakfast all day (well, till they close at like 3). Locations all over, all fab.
+
+ - header: stay
+   links:
+     - name: Pacific Beach (and Mission Bay/Beach) 
+       descr: this is where everyone 20/30-something who comes to San Diego seems to end up staying. Very beach vibe, good priced airbnbs and pretty walkable
+
+     - name: North Park 
+       descr: Love North Park and surrounding areas for the community feel and walkability to cafes
+
+     - name: Little Italy 
+       descr: It’s a great place to stay and the nightlife is fantastic
+
+     - name: Del Mar 
+       descr: it’s walkable, it has my favorite beaches, and the food is great – like La Jolla, more hotels than airbnb
+
+     - name: Coronado 
+       descr: it’s an island, it’s pretty, it’s got a New England ish feel to it, but be careful! If you jaywalk you will get a ticket
