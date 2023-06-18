@@ -7,6 +7,13 @@
 }
 
 @font-face {
+    font-family: 'nova-medium';
+    src: url('resource/Metropolis-Medium.woff2') format('woff2'),
+        url('resource/Metropolis-Medium.woff') format('woff');
+    font-weight: normal;
+    /* font-style: normal; */
+
+}@font-face {
     font-family: 'nova';
     src: url('resource/Metropolis-ExtraLight.woff2') format('woff2'),
         url('resource/Metropolis-ExtraLight.woff') format('woff');
@@ -19,7 +26,7 @@ a.fav-link {
     font-size: 1.0rem;
     display: inline-block;
     float: none;
-    font-family: "WebFont", nova, sans-serif;
+    font-family: "WebFont", nova-black, sans-serif;
     color: black;
     text-decoration: none;
     text-transform: uppercase;

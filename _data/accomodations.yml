@@ -1,0 +1,17 @@
+ - header: stuff
+   links: 
+     - name: Grande Colonial
+       addr: 910 Prospect St<br>La Jolla, CA 92037<br>(844) 652-4081
+       link: https://www.thegrandecolonial.com/
+       descr: Enquire about the McCarthy/Schindler wedding block discount
+
+
+     - name: Scripps Inn
+       addr: 555 Coast Blvd S<br>La Jolla, CA 92037<br>(888) 976-2912
+       link: https://scrippsinn.com/
+       descr: Please enquire with Brooke Adams at badams@jcresorts.com to ask about block discounts.
+
+     - name: La Valencia Hotel
+       addr: 1132 Prospect St<br>La Jolla, CA 92037<br>(855) 476-6870
+       link: https://www.lavalencia.com/
+       descr: 

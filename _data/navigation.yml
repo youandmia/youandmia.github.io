@@ -3,7 +3,7 @@
 
 - name: accomodations
   link: /accomodations.html
-  disabled: true
+  disabled: false 
 
 - name: gallery
   link: /gallery
