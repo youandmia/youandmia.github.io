@@ -2,7 +2,7 @@
   link: /details
 
 - name: accomodations
-  link: /accomodations.html
+  link: /accomodations
   disabled: false 
 
 - name: gallery
@@ -10,7 +10,7 @@
   disabled: false 
 
 - name: registry
-  link: /registry.html
+  link: /registry
   disabled: true
 
 - name: our favorites
