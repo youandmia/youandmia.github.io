@@ -14,6 +14,7 @@ permalink: /accomodations
             <p class="fav-link">{{ node.addr}}</p>
             <p class="fav-link">{{ node.city}}</p>
             <p class="fav-link">{{ node.phone}}</p>
+            <p class="fav-link">{{ node.email}}</p>
             <p class="fav-link">{{ node.descr}}</p>
             {% endfor %}
         </div>
