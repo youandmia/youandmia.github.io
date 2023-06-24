@@ -215,7 +215,7 @@ p.nova {
     }
 
     h4.group-header {
-        font-size: 2vw
+        font-size: 4vh
     }
 
     h4.sub-header {
@@ -234,4 +234,21 @@ p.nova {
         height: 5vh
     }
 
+}
+
+.registry_button {
+    /*border-style: solid;*/
+    display: block;
+    height: 300px;
+    padding: 50px
+}
+
+.registry_inset {
+    display: block;
+    height: 200px;
+    background-color: black;
+    color: white ;
+    font-family: nova;
+    text-transform: uppercase;
+    font-size: 1.5rem
 }

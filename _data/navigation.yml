@@ -11,8 +11,12 @@
 
 - name: registry
   link: /registry
-  disabled: true
+  disabled: false 
 
 - name: our favorites
   link: /favorites
-  disabled: false 
+  disabled: false
+
+- name: rsvp
+  link: /rsvp
+  disabled: true 
