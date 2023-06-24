@@ -8,7 +8,7 @@ permalink: /accomodations
 
     {% for elem in site.data.accomodations %}
     <div class="row justify-content-center">
-        <div class="col-md-12 col-lg-4 text-center">
+        <div class="col-md-12 col-lg-8 text-center">
             {% for node in elem.links %}
             <a class="fav-link" href="{{ node.link }}">{{ node.name }}</a>
             <p class="fav-link">{{ node.addr}}</p>
