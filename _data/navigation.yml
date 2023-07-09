@@ -17,6 +17,6 @@
   link: /favorites
   disabled: false
 
-- name: rsvp
-  link: /rsvp
-  disabled: true 
+# - name: rsvp
+#   link: /rsvp
+#   disabled: true 
