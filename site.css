@@ -215,7 +215,7 @@ p.nova {
     }
 
     h4.group-header {
-        font-size: 2vw
+        font-size: 4vh
     }
 
     h4.sub-header {
@@ -234,4 +234,53 @@ p.nova {
         height: 5vh
     }
 
+}
+
+.registry_button {
+    /*border-style: solid;*/
+    display: block;
+    height: 300px;
+    padding: 50px
+}
+.registry_button_hidden {
+    /*border-style: solid;*/
+    display: block;
+    height: 10px;
+    padding-top: 0px;
+}
+
+.registry_row_split {
+    margin-bottom: 0;
+}
+
+.registry_row_center_hidden {
+    /*border-style: solid;*/
+    justify-content: center;
+    margin-top: 0;
+    /* height: 1rem; */
+}
+.registry_row_center {
+    /*border-style: solid;*/
+    justify-content: center;
+    margin-top: calc(-.3 * var(--bs-gutter-y));/* margin-top: /0 */
+}
+
+.registry_inset {
+    display: block;
+    height: 200px;
+    background-color: black;
+    color: white ;
+    font-family: nova;
+    text-transform: uppercase;
+    font-size: 1.5rem
+}
+
+.registry_inset_hidden {
+    display: block;
+    height: 1rem;
+    background-color: white;
+    color: white ;
+    font-family: nova;
+    text-transform: uppercase;
+    font-size: 1.5rem
 }
