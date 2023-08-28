@@ -1,12 +1,12 @@
 ---
 layout: map
-permalink: /accomodations
+permalink: /accommodations
 ---
 
 <div class="container d-flex align-items-center justify-content-center">
 <div class="container-fluid">
 
-    {% for elem in site.data.accomodations %}
+    {% for elem in site.data.accommodations %}
     <div class="row justify-content-center">
         <div class="col-md-12 col-lg-8 text-center">
             {% for node in elem.links %}
@@ -51,10 +51,12 @@ permalink: /accomodations
       shadowSize: [41, 41]
     });
     var map = L.map('map').setView([32.84404, -117.27534], 15);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+}).addTo(map);
     var reception = L.marker([32.8445548, -117.2779950], {icon: redIcon}).bindPopup("Museum of Contemporary Art").addTo(map);
     var church = L.marker([32.8439363, -117.2730929],{icon: redIcon}).bindPopup("Mary, Star of the Sea").addTo(map);
 

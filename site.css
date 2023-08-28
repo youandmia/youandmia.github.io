@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair+Display:ital,wght@1,600&family=Quattrocento:wght@700&display=swap');
+
 @font-face {
     font-family: 'butler';
     src: url('resource/ButlerStencil-ExtraBold.woff2') format('woff2'),
@@ -13,20 +15,22 @@
     font-weight: normal;
     /* font-style: normal; */
 
-}@font-face {
-    font-family: 'nova';
-    src: url('resource/Metropolis-ExtraLight.woff2') format('woff2'),
-        url('resource/Metropolis-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('resource/PlayfairDisplay-Regular.ttf') format('ttf');
     font-weight: normal;
     /* font-style: normal; */
 }
+
 
 a.fav-link {
     font-weight: bold;
     font-size: 1.0rem;
     display: inline-block;
     float: none;
-    font-family: "WebFont", nova-black, sans-serif;
+    font-family: "WebFont", 'Playfair', serif;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
@@ -34,7 +38,7 @@ a.fav-link {
 }
 p.fav-link {
 
-    font-family: "WebFont", nova, sans-serif;
+    font-family: "WebFont", 'Playfair', serif;
     color: black;
 }
 
@@ -44,6 +48,7 @@ a.nav-link {
 
 body {
     margin: 0;
+    background-color: #adcceb
 }
 
 .col-map {
@@ -58,7 +63,7 @@ div.display-1 {
 
 div.display-6 {
 
-    font-family: 'WebFont', nova, sans-serif;
+    font-family: 'WebFont', 'Playfair', serif;
     /* font-size: 1.5rem; */
     font-weight: normal;
     letter-spacing: .3em;
@@ -86,15 +91,15 @@ h4.header {
 }
 
 h4.group-header {
-    font-family: 'WebFont', butler, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 2.2rem;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     margin-left: 0vw;
 }
 
 h4.sub-header {
-    font-family: 'WebFont', butler, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 1.7rem;
     text-transform: lowercase;
@@ -107,14 +112,14 @@ header[role="banner"] {
 }
 
 .image-container {
-    /* height: 100vh; */
-    height: calc(90vh - 175px);
-    max-width: 90vw;
+    height: min(calc(90vh - 175px),calc(.75 * 100vw));
+    width: min(90vw, calc(1.33* (90vh - 175px)));
     display: block;
     margin-left: 5vw;
-    background-image: url('resource/mcasd.jpg');
+    background-image: url('resource/map_complete.webp');
     background-size: cover;
     background-position: center;
+    margin: 0 auto;
 }
 
 .link-unstyled,
@@ -143,7 +148,7 @@ header[role="banner"] {
 #navbar-primary.navbar-default .navbar-nav>li {
     display: inline-block;
     float: none;
-    font-family: "WebFont", nova, sans-serif;
+    font-family: "WebFont", 'Playfair', serif;
 }
 
 #navbar-primary.navbar-default .navbar-nav>li>a {
@@ -151,13 +156,14 @@ header[role="banner"] {
     padding-left: 30px;
     padding-right: 30px;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 
 #navbar-primary.navbar-default .navbar-nav>.active>a {
     /* background-color: #b0cdd1;  */
-    background-color: #000000;
-    color: white;
-    font-weight: bold
+    background-color: #e1dbd4;
+    color: black;
+    /* font-weight: bold */
 }
 
 .navbar-toggler-icon {
@@ -171,7 +177,7 @@ header[role="banner"] {
 }
 
 div.email {
-    font-family: 'WebFont', nova, sans-serif;
+    font-family: 'WebFont', 'Playfair', sans-serif;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -181,6 +187,7 @@ p.nova {
     font-weight: normal;
     text-transform: uppercase;
 }
+
 
 @media screen and (min-width: 320px) {
     .col-map {
@@ -206,6 +213,9 @@ p.nova {
 
     div.email {
         font-size: 3vw
+    }
+    .header_img {
+        width: 50vw;
     }
 }
 
@@ -234,13 +244,16 @@ p.nova {
         height: 5vh
     }
 
+    .header_img {
+        width: 30vw;
+    }
 }
 
 .registry_button {
     /*border-style: solid;*/
     display: block;
     height: 300px;
-    padding: 50px
+    padding: 50px;
 }
 .registry_button_hidden {
     /*border-style: solid;*/
@@ -268,19 +281,31 @@ p.nova {
 .registry_inset {
     display: block;
     height: 200px;
-    background-color: black;
-    color: white ;
-    font-family: nova;
+    background-color: #e1dbd4;
+    color: black ;
+    font-family: 'Playfair';
     text-transform: uppercase;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    border-radius: 10px;
 }
 
 .registry_inset_hidden {
     display: block;
     height: 1rem;
-    background-color: white;
-    color: white ;
-    font-family: nova;
+    background-color: #adcceb;
+    color: #adcceb ;
+    font-family: 'Playfair';
     text-transform: uppercase;
     font-size: 1.5rem
+}
+
+.textnormal {
+    font-family: 'WebFont', 'Playfair', serif;
+    font-weight: normal;
+}
+
+.textupper {
+    font-family: 'WebFont', 'Playfair', serif;
+    font-weight: normal;
+    text-transform: uppercase;
 }

@@ -14,10 +14,10 @@ permalink: /details
         <!-- saturday-->
         <div class="col-md-12 col-lg-4 text-center">
             <h4 class="group-header ">saturday</h4>
-            <p class="nova">wedding day!</p>
+            <p class="textupper">wedding day!</p>
             <div class="row">
                 <h4 class="sub-header">ceremony</h4>
-                <p class="nova">Mary, Star of the Sea<br>
+                <p class="textupper">Mary, Star of the Sea<br>
                     7713 Girard Avenue<br>
                     La Jolla, CA 92037<br>
                     2:00</p>
@@ -25,7 +25,7 @@ permalink: /details
 
             <div class="row text-center">
                 <h4 class="sub-header">cocktail hour & reception</h4>
-                <p class="nova">
+                <p class="textupper">
                     Museum of Contemporary Art, La Jolla<br>
                     700 Prospect St<br>
                     La Jolla, CA 92037<br>
@@ -35,7 +35,7 @@ permalink: /details
 
             <div class="row text-center">
                 <h4 class="sub-header">afterparty</h4>
-                <p class="nova">prepare for good things....</p>
+                <p class="textupper">prepare for good things....</p>
             </div>
 
         </div>
@@ -65,10 +65,12 @@ permalink: /details
 
 <script>
     var map = L.map('map').setView([32.84404, -117.27534], 15);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+}).addTo(map);
     var reception = L.marker([32.8445548, -117.2779950]).bindPopup("Museum of Contemporary Art").addTo(map);
     var church = L.marker([32.8439363, -117.2730929]).bindPopup("Mary, Star of the Sea").addTo(map);
 </script>
