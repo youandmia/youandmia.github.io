@@ -1,8 +1,8 @@
 - name: details
   link: /details
 
-- name: accomodations
-  link: /accomodations
+- name: accommodations
+  link: /accommodations
   disabled: false 
 
 - name: gallery
