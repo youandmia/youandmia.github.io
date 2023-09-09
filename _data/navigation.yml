@@ -1,8 +1,8 @@
 - name: details
   link: /details
 
-- name: accomodations
-  link: /accomodations
+- name: accommodations
+  link: /accommodations
   disabled: false 
 
 - name: gallery
@@ -17,6 +17,7 @@
   link: /favorites
   disabled: false
 
-# - name: rsvp
-#   link: /rsvp
-#   disabled: true 
+- name: rsvp
+  link: /rsvp
+  disabled: false
+
