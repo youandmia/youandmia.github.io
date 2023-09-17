@@ -7,9 +7,12 @@ permalink: /details
         <!-- friday-->
         <div class="col-md-12 col-lg-4 text-center">
             <h4 class="group-header">friday</h4>
-            <div class="detail-fill"></div>
-            <h4 class="group-header">...</h4>
-            <div class="detail-fill"></div>
+            <div class="row">
+                <h4 class="sub-header">welcome reception</h4>
+                    <p class="textupper">La Jolla Shores Beach<br>
+                    La Jolla, CA 92037<br>
+                    7:00</p>
+            </div>
         </div>
         <!-- saturday-->
         <div class="col-md-12 col-lg-4 text-center">
@@ -46,8 +49,13 @@ permalink: /details
         <!-- sunday-->
         <div class="col-md-12 col-lg-4 text-center">
             <h4 class="group-header">sunday</h4>
-            <div class="detail-fill"></div>
-            <h4 class="group-header">...</h4>
+            <div class="row">
+                <h4 class="sub-header">Eritrean Sunday Brunch</h4>
+                <p class="textupper">Yard & Sea<br>
+                    1370 Garnet Ave<br>
+                    San Diego, CA 92109<br>
+                    11:00</p>
+            </div>
             <div class="detail-fill"></div>
         </div>
 
@@ -68,7 +76,7 @@ permalink: /details
 
 
 <script>
-    var map = L.map('map').setView([32.84404, -117.27534], 15);
+    var map = L.map('map').setView([32.83404, -117.27534], 13);
     L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}', {
 	minZoom: 0,
 	maxZoom: 20,
@@ -77,4 +85,7 @@ permalink: /details
 }).addTo(map);
     var reception = L.marker([32.8445548, -117.2779950]).bindPopup("Museum of Contemporary Art").addTo(map);
     var church = L.marker([32.8439363, -117.2730929]).bindPopup("Mary, Star of the Sea").addTo(map);
+    var thespot = L.marker([32.848297509596485, -117.27449321534274]).bindPopup("The Spot").addTo(map);
+    var friday = L.marker([32.858316118323806, -117.2563491079434]).bindPopup("La Jolla Shores").addTo(map);
+    var sunday = L.marker([32.8003065563949, -117.24481973862893]).bindPopup("Yard & Sea").addTo(map);
 </script>
