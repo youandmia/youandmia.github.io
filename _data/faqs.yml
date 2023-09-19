@@ -1,15 +1,33 @@
  - header: clothing 
    questions: 
+
+ - attending: 
+   questions:
      - q: What is the dress code? 
        a: <b>Friday evening</b> will be casual. It may be as cool as the 50s so a hoodie or sweater is recommended.<br>
           <b>Saturday</b> is a dressy affair! Formal dress requested.<br>
           <b>Sunday</b>'s brunch would go well with smart casual / festive brunch wear :)
+     - q: What will the weather be like?
+       a: In early December it's generally sunny with highs in the 70s and lows in the 50s.
+     - q: Are children allowed?
+       a: Yes! Additionally childcare will be provided in the evening, contact us for details.
+     - q: Will there be bar service at the reception?
+       a: There will be an open bar.
+     - q: Is there a hotel block?
+       a: There isn't officially a block, but we've secured some group discounts at <a href='/accommodations'>nearby hotels</a>.
+     - q: I'm from out of town, what should I do if I want to make a vacation out of the trip?
+       a: We've listed a lot of our favorite activities <a href='/favorites'>here</a>.
 
+
+ - header: locations
+   questions:
      - q: Is the wedding indoors?
        a: Both the ceremony and reception will be indoors. The post-ceremony cocktail reception will be in an indoor/outdoor area before sundown.
+     - q: How can I get from the ceremony to the reception?
+       a: The church and the museum are about a ten minute walk apart. If you need a lift, let us know!
+     - q: Where do I park?
+       a: The Museum offers valet parking ($15) and some street parking may be available. We recommend leaving your car at your hotel or ride sharing if possible!
+     - q: Is there a shuttle from the hotels?
+       a: All three of our listed hotels are a short walk from both the church and the reception venue, there is no shuttle.
 
- - hotels: 
-   questions:
-   - q: are thre hotels?
-     a: yes, plenty
 
