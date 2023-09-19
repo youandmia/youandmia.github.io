@@ -21,3 +21,7 @@
   link: /rsvp
   disabled: false
 
+- name: faqs
+  link: /faqs
+  disabled: false
+

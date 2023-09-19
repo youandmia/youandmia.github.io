@@ -1,0 +1,15 @@
+ - header: clothing 
+   questions: 
+     - q: What is the dress code? 
+       a: <b>Friday evening</b> will be casual. It may be as cool as the 50s so a hoodie or sweater is recommended.<br>
+          <b>Saturday</b> is a dressy affair! Formal dress requested.<br>
+          <b>Sunday</b>'s brunch would go well with smart casual / festive brunch wear :)
+
+     - q: Is the wedding indoors?
+       a: Both the ceremony and reception will be indoors. The post-ceremony cocktail reception will be in an indoor/outdoor area before sundown.
+
+ - hotels: 
+   questions:
+   - q: are thre hotels?
+     a: yes, plenty
+
