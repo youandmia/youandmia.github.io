@@ -1,0 +1,31 @@
+ - header: clothing 
+   questions: 
+
+ - attending: 
+   questions:
+     - q: What is the dress code? 
+       a: <b>Friday evening</b> will be casual. It may be as cool as the 50s so a hoodie or sweater is recommended.<br>
+          <b>Saturday</b> is a dressy affair! Formal dress requested. The ceremony will be in a Catholic Church -- a good rule of thumb for the ceremony is to cover your knees and arms!<br>
+          <b>Sunday</b>'s brunch would go well with smart casual / festive brunch wear :)
+     - q: What will the weather be like?
+       a: In early December it's generally sunny with highs in the 70s and lows in the 50s.
+     - q: Are children allowed?
+       a: Yes! Additionally childcare will be provided Saturday evening, contact us for details both about this and if you need to coordinate additional childcare for the weekend.
+     - q: Will there be bar service at the reception?
+       a: There will be an open bar.
+     - q: Is there a hotel block?
+       a: There isn't officially a block, but we've secured some group discounts at <a href='/accommodations'>nearby hotels</a>.
+     - q: I'm from out of town, what should I do if I want to make a vacation out of the trip?
+       a: We've listed a lot of our favorite activities <a href='/favorites'>here</a>.
+
+
+ - header: locations
+   questions:
+     - q: Is the wedding indoors?
+       a: Both the ceremony and reception will be indoors. The post-ceremony cocktail reception will be in an indoor/outdoor area before sundown.
+     - q: How can I get from the ceremony to the reception?
+       a: The church and the museum are about a ten minute walk apart. If you need a lift, let us know!
+     - q: Is there a shuttle from the hotels?
+       a: All three of our listed hotels are a short walk from both the church and the reception venue, there is no shuttle.
+
+
