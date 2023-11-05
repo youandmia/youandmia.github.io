@@ -19,7 +19,7 @@
 
 - name: rsvp
   link: /rsvp
-  disabled: false
+  disabled: true 
 
 - name: faqs
   link: /faqs
