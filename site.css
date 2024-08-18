@@ -128,7 +128,7 @@ header[role="banner"] {
     width: min(90vw, calc(1.33* (90vh - 175px)));
     display: block;
     margin-left: 5vw;
-    background-image: url('resource/map_complete.webp');
+    background-image: url('resource/sunset.webp');
     background-size: cover;
     background-position: center;
     margin: 0 auto;
